@@ -1,0 +1,19 @@
+# Core bot + web framework
+discord.py==2.4.0
+Flask==3.0.3
+requests==2.32.3
+
+# Web3 / Ethereum
+web3==6.20.1
+eth-account==0.13.4
+
+# Solidity compiler wrapper (downloads solc on demand)
+py-solc-x==2.0.3
+
+# Env & crypto utils
+python-dotenv==1.0.1
+cryptography==43.0.1
+
+# (Optional) Prod servers & extras
+# gunicorn==22.0.0        # Linux deployment for Flask
+# waitress==3.0.0         # Windows-friendly WSGI server
