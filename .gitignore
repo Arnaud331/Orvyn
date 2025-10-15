@@ -1,0 +1,136 @@
+############################################
+# OS / Editors
+############################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+############################################
+# Python
+############################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pdb
+*.egg-info/
+.eggs/
+.build/
+build/
+dist/
+.wheels/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+.mypy_cache/
+.pytest_cache/
+.cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+pytestdebug.log
+
+############################################
+# Logs
+############################################
+logs/
+*.log
+
+############################################
+# Environment & Secrets
+############################################
+.env
+.env.*
+!.env.example
+.envrc
+*.secret
+*.key
+*.pem
+*.p12
+*.keystore
+*.asc
+.gnupg/
+
+# OAuth / tokens
+token.json
+.oauth-credentials.json
+
+############################################
+# App Data (local JSON storage)
+############################################
+data/*.json
+!data/*.example.json
+
+############################################
+# Node / JS toolchains
+############################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnp
+.pnp.js
+.parcel-cache/
+.eslintcache
+
+############################################
+# Solidity / Web3 toolchains
+############################################
+# Common build outputs (Hardhat/Foundry/Truffle)
+artifacts/
+cache/
+out/
+typechain/
+
+# Raw artifacts (keep ABI JSONs in abi/)
+*.abi
+*.bin
+
+# Keep ABI bundle if you commit it
+!abi/
+!abi/*.json
+
+############################################
+# Frontend builds (if present)
+############################################
+.svelte-kit/
+.next/
+.nuxt/
+.vite/
+vite.config.ts.timestamp-*
+dist/
+public/build/
+
+############################################
+# Databases (Flask/SQLite)
+############################################
+instance/
+*.sqlite3
+*.db
+*.db-journal
+
+############################################
+# Coverage / Reports
+############################################
+coverage/
+coverage.xml
+*.lcov
+*.lcov.info
+
+############################################
+# Misc
+############################################
+*.orig
+*.rej
+*.patch
+*.bak
+*.tmp
+*.temp
