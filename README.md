@@ -61,13 +61,13 @@
 ```
 +------------------------+            +------------------+            +----------------------+
 |        Discord         | <------->  |   Discord Bot    |  ------->  |     Web3 Provider    |
-|  (Guild, Users, cmds) |   API/GW   | (discord.py app) |  HTTP/RPC  |  (Ganache/Node/etc.) |
+|  (Guild, Users, cmds)  |   API/GW   | (discord.py app) |  HTTP/RPC  |  (Ganache/Node/etc.) |
 +-----------^------------+            +---------^--------+            +-----------^----------+
             |                                  |                                 |
             |                                  |                                 |
             |                       +----------+----------+                      |
-            |                       |   Flask OAuth App  |                      |
-            |                       |  (/authorize flow) |                      |
+            |                       |   Flask OAuth App   |                      |
+            |                       |  (/authorize flow)  |                      |
             |                       +----------^----------+                      |
             |                                  |                                 |
             v                                  |                                 |
